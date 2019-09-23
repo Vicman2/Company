@@ -1,0 +1,330 @@
+/* This is the Css file of SUNENG  and works limited*/
+body{
+	background-image: url("../Images/BG1.jpg") !important;
+	margin-left:10px;
+	font-family: Arial-black;
+}
+@font-face{
+	font-family: 'Phyton Script Demo';
+	src: url('Phyton Script Demo.ttf');
+}
+@font-face{
+	font-family: 'Courier Prime Sans';
+	src: url('Courier Prime Sans.ttf');
+}
+@font-face{
+	font-family: 'Comic Sans Ms';
+	src: url('ComicSansMS3.ttf');
+}
+@font-face{
+	font-family: 'Algerian';
+	src: url('Algerian regular.ttf');
+}
+a:hover{
+	text-decoration:none;
+}
+.navbar{
+	margin-bottom:0;
+	background: rgb(227, 2, 7);
+	z-index: 999;
+	font-size: 18px !important;
+	letter-spacing: 1px;
+	line-height: 5px;
+	border-radius:0;
+	font-style:oblique;
+	letter-spacing:1px;
+}
+.navbar li a, .navbar .navbar-brand{
+	color: rgb(0,0,53) !important;
+	text-align:center;
+	margin-left : 30px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+	color:rgb(227, 2, 7) !important;
+	background-color: rgb(0,0,53) !important;
+}
+
+#logo{
+	width: 300;
+	height: 300px;
+	display:block;
+	margin: 0px auto;
+	padding-top: 0px;
+}
+#design{
+	height: 500px;
+	background-image: url("../Images/MechGif.gif") !important;
+	border: 5px solid rgb(0,0,53);
+	position:relative;
+}
+#inner{
+	background-color:rgba(0,0,53,0.7);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.header{
+	text-align:center;
+	font-size:1.2em;
+}
+#service_header{
+	background-color:rgba(43,12, 170, 0.9);
+	padding:0px;
+	color:rgb(225,225,225);
+	border : 4px dotted rgb(227, 2, 7);
+	font-family: Comic Sans Ms3;
+	word-spacing: 7px;
+	letter-spacing: 3px;
+}
+.list-group-item{
+	font-size: 17px !important;
+}
+#Display{
+	background-image: url("../Images/EngPicture.jpg");
+	height: 500px;
+	position:relative;
+}
+#inner1{
+	background-color:rgba(227, 2, 7, 0.5);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.footer{
+	background-color: rgba(0,0,53,0.7);
+	color:rgb(85, 209, 223);
+	text-align:center;
+	margin-top: 10px;
+	text-align: center;
+	font-family: Comic Sans MS;
+}
+.ind_form{
+	margin-bottom: 20px !important;
+}
+.Submit{
+	align:center !important;
+	margin-top : 10px !important;
+	padding-top: 10px !important;
+	margin-left: 220px !important;
+
+}
+.error {
+		background : #d33;
+		color: white;
+		padding: 0.2em;
+		text-align:center;
+		font-family: Comic Sans Ms;
+		font-size: 12px;
+}
+#info-Caption{
+	margin: 20px;
+	border: 20px;
+	padding: 20px;
+	letter-spacing: 5px;
+	font-size: 20px;
+	color: rgba(0,0,53,0.7);
+	font-style: italic;
+}
+#welcome{
+	letter-spacing: 15px !important;
+	text-align:center;
+	font-family: Times New Roman;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: 120px;
+	color: rgb(255, 255, 255);
+	border: 3px solid white;
+	margin: 5px solid white;
+}
+#welcomeDiv{
+	background-color:rgb(183, 15, 23);
+	border: 3px outset rgb(150, 150, 150);
+	margin: 10px;
+}
+#welcomeDiv2{
+	background-color: rgba(0,0,53,0.7);
+	border: 3px outset rgb(150, 150, 150);
+	margin: 10px;
+}
+#greetingMessage{
+	letter-spacing: 9px !important;
+	text-align:center;
+	text-transform: uppercase;
+	font-family: Comic Sans Ms;
+	font-style: italic;
+	font-weight: 69px;
+	color: rgb(255, 255, 255);
+	border: 3px solid white;
+	font-size: 25px;
+	border: 5px solid white;
+}
+.detail{
+	color: rgb(255, 255, 255) !important;
+	text-align: center;
+	letter-spacing: 3px;
+	font-family:Comic Sans Ms;
+	font-size: 18px;
+}
+.navbar-collapse{
+	text-align:center !important;
+	font-family: Algerian !important;
+	margin
+}
+.navbar-brand{
+	font-family: Phyton Script Demo;
+	font-size: 200%;
+	font-weight: 60px;
+
+}
+.aboutUs{
+	background-color: rgba(0,0,53,0.7);
+	color:white;
+	text-align:center;
+	margin-top: 10px;
+	border: 4px dotted rgb(0,0,53);
+}
+
+.machDetail{
+	font-family: Courier Prime Sans;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+}
+#aboutUs{
+	font-family: Times New Roman;
+	font-size: 50px;
+	font-variant: small-caps;
+	letter-spacing: 6px;
+	font-style: italic;
+
+}
+#aboutDetail{
+	letter-spacing:2px;
+	font-family: Times New Roman;
+	font-size: 15px;
+}
+.slide{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 40%;
+	background:white;
+	color: rgb(0,0,53);
+}
+#hei{
+	background-color: rgba(121, 0, 39, 0.7);
+	color: white;
+	font-family: Times New Roman;
+	font-size: 20px;
+	text-align:center;
+}
+.content{
+	text-align:center;
+	margin-top: 20px;
+	padding: 20px;
+	background-color: rgb(117, 47, 109);
+}
+#services{
+	font-family: Courier New;
+	font-size: 45px;
+	letter-spacing: 3px;
+	color: rgb(200, 191, 231);
+}
+.changeMe{
+	color: white;
+	background-color: rgb(117, 47, 109);
+	border: 1px solid rgb(200, 191, 231);
+	letter-spacing: 1px;
+	font-family: Cambria;
+}
+.naming{
+	background: rgb(106, 4, 115);
+	margin-top: 30px;
+	color: rgb(236, 81, 249);
+	font-family: Comic Sans MS;
+	font-size: 18px;
+	text-align:center;
+}
+.mach{
+	height: 270px;
+	width: 250px;
+	margin-left: 10px;
+}
+#explain{
+	background: black;
+	color: rgb(230, 230, 230);
+	text-align: center;
+	font-family: Algerian;
+	padding: 3px;
+	word-spacing: 7px;
+	letter-spacing:2px;
+}
+a:hover{
+	text-decoration: none;
+}
+#ContactMe{
+	background: rgb(19, 64, 46);
+	color: rgb(167, 228, 204);
+}
+#heading{
+	font-family: Comic Sans Ms;
+	color: rgb(19, 64, 46);
+}
+#machineHead{
+	background:black;
+	color: rgb(255, 166, 255);
+	font-size: 25px;
+	text-align: center;
+	font-family: Cambria;
+	text-transform:uppercase;
+	font-style: Italic;
+	text-decoration: blink;
+	text-shadow: 4px  8px  4px white;
+}
+#machineName{
+	background: rgb(150, 1, 5);
+	color:white;
+	font-family: Times New Roman;
+	font-size: 20px;
+	text-align: center;
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.line img{
+	display: inline;
+}
+.row{
+	margin-bottom: 10px;
+}
+
+.machDetail p{
+	background: rgb(150, 1, 5);
+	color:white;
+}
+.machDetail button>a{
+	color:white;
+	font-family: Comic Sans Ms;
+}
+#innerText{
+	text-align: center;
+	font-family: Times New Roman;
+	margin: 100px;
+	font-size: 30px;
+	letter-spacing:6px;
+	color: rgb(255, 255, 255);
+	word-spacing: 20px;
+	text-transform: uppercase;
+	font-style: Italic;
+
+	}
+#innerText1{
+	text-align: right;
+	font-family: Cambria;
+	font-size: 15px;
+	letter-spacing:2px;
+	color: rgb(255, 255, 255);
+	word-spacing: 4px;
+	font-style: oblique;
+}
